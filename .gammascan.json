@@ -1,0 +1,67 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "userName": "",
+        "password": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "",
+            "repository": {
+                "uid": "2c1f4c2519ce8ef1bef8522f9959a750",
+                "projectName": "linked-data-configfile",
+                "languages": [
+                    "PYTHON"
+                ],
+                "sources": {
+                    "baseDir": "",
+                    "exclusions": [
+                        "_init_.py",
+                        "test"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "codeissues": [
+                    {
+                        "name": "pylint",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
